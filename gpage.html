@@ -2,13 +2,27 @@
 
 <html>
 <head>
-    <style>
+   <style>
         h1 {
-            height: 100px;
-            width: 100px;
+            height: 100px; 
             margin: 200px auto;
+        }
+     .logo {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+          margin: 250px;
+     }
+        .searchfield {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin: 20px;
 
         }
+
+            
+     
 
 
     </style>
@@ -16,13 +30,14 @@
 
 </head>
 <body>
+    <div class="logo">
+    
+       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="No Google logo found">
 
-    <div>
-    <h1><img src="chrome://new-tab-page/icons/google_logo.svg" class="logo" alt="No logo"></h1>
     </div>
 
     <div>
-        <form>Search</form>
+        <input class="searchfield" type="text" placeholder="Google dis">
 
     </div>
 </body> 
