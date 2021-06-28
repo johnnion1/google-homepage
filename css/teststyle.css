@@ -1,0 +1,54 @@
+h1 {
+    height: 100px; 
+    margin: 200px auto;
+}
+.logo {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin: 164px auto auto;
+}
+
+.GSearch {
+    align-items: center; /*centers content of the search bar VERTICALLY */
+    margin: 36px auto;
+    text-align: center;
+
+
+   /* box-shadow: 1px 1px 2px 0px rgba(172, 171, 171, 0.76); */
+   box-shadow: 3px 3px 13px -9px rgba(172, 171, 171, 0.76);
+    height: 42px;
+    max-width: 559px;
+
+    border-style: solid;
+    border-color:rgba(146, 146, 146, 0.164);
+    border-radius: 40px;
+    opacity: 0.9;
+
+}
+.searchfield {
+    border: none;
+    font-family: Roboto, Cantarell, Arial, sans-serif;
+  
+   margin: auto 5px;
+   font-size: 16px;
+   text-align: justify;
+  width: 470px;
+   /* align-items: stretch?? let gap between icons be filled by form
+    justify-content: stretch; */
+
+}
+
+#searchicon {
+    float: left;
+
+    margin: 2px 5px 0px 10px;
+}
+
+#voiceicon {
+  float: right;
+    
+    margin: 2px 5px 0px 10px;
+
+
+}
