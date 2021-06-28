@@ -15,9 +15,10 @@ h1 {
     text-align: center;
     display: flex;
 
-    box-shadow: px 1px 4px 0px rgba(172, 171, 171, 0.76);
-    height: 43px;
-    width: 560px;
+   /* box-shadow: 1px 1px 2px 0px rgba(172, 171, 171, 0.76); */
+   box-shadow: 3px 3px 13px -9px rgba(172, 171, 171, 0.76);
+    height: 42px;
+    width: 559px;
 
     border-style: solid;
     border-color:rgba(146, 146, 146, 0.164);
@@ -28,9 +29,14 @@ h1 {
     display: flex;
     flex-direction: row;
     border: none;
-   justify-content: left;
-   margin: 0px;
-   font-size: 15px;
+   justify-content: stretch;
+   margin: auto 5px;
+   font-size: 16px;
+    align-items: stretch?? let gap between icons be filled by form
+
+
+
+
 }
 
 #searchicon {
