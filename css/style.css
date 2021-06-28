@@ -6,24 +6,36 @@ h1 {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-  margin: 164px auto auto;
+   margin: 164px auto auto;
+}
+
+.GSearch {
+    align-items: center;
+    margin: 36px auto;
+    text-align: center;
+    display: flex;
+
+    box-shadow: px 1px 4px 0px rgba(172, 171, 171, 0.76);
+    height: 43px;
+    width: 560px;
+
+    border-style: solid;
+    border-color:rgba(146, 146, 146, 0.164);
+    border-radius: 40px;
+
 }
 .searchfield {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 40px auto;
-    text-align: left;
-    
-    box-shadow: 1px 1px 5px 1px rgba(172, 171, 171, 0.76);
-    height: 40px;
-    width: 520px;
-
+    border: none;
+   justify-content: left;
+   margin: 0px;
+   font-size: 15px;
 }
 
-.searchfieldborder {
-    border-style: solid;
-    border-color:rgba(196, 193, 193, 0.164);
-    border-radius: 40px;
+#searchicon {
+    display: flex;
+    flex-direction: row;
 
+    margin: 2px 5px 0px 10px;
 }
