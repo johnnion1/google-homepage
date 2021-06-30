@@ -1,12 +1,18 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <style>
+        
             .container {
         display: flex;
         max-width: 559px;
         height: 42px;
+        justify-content:space-between;
         align-items: center;
+        flex-flow: row nowrap;
+        
+            
         
     
     
@@ -18,33 +24,45 @@
     }
     
     #searchicon  {
-            width: 10%;
-            height: 80%;
+            width:24px;
+            height:24px;
+            margin: 0 0 0 6px;
 
-            background-color: blue;
     }
     
     #voiceicon {
-            width: 10%;
-            height: 40%;
-            background-color: greenyellow;
+            width: 24px;
+            height: 24px;
+            margin: 0 6px 0 0;
     }
     
     #searchbar {
-            width: 80%;
-            height: 100%;
-            background-color: hotpink;
-    
+            height: auto;
+            width: 100%;
+            align-items:stretch;
+    }
+    .query {
+      /*      border-color: transparent;        ..Activate later */
+            
     }
         </style>
     </head>
 
 <body>
-    <div class="container">
+   <!--<div class="container">
         <div id="searchicon"></div>
         <div id="searchbar"></div>
         <div id="voiceicon"></div>
         </div>
+    </div> -->
+    <div class="container">
+        <div id="searchicon"><span class="material-icons md-24">search</span>
+        </div>
+        <div id="searchbar"">  <input class="query" type="text" placeholder="Search Google or type a URL" tabindex="0">
+        </div>
+        <div id="voiceicon"><span class="material-icons">mic</span>
+        </div>
+
     </div>
 </body>
 
