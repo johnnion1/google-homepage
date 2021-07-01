@@ -3,8 +3,14 @@
     <head>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <style>
-        
-            .container {
+
+        .material-icons.md-18 { font-size: 18px; }
+        .material-icons.md-20 { font-size: 20px; }
+        .material-icons.md-24 { font-size: 24px; }
+        .material-icons.md-36 { font-size: 36px; }
+        .material-icons.md-48 { font-size: 48px; }
+    
+    .container {
         display: flex;
         max-width: 559px;
         height: 42px;
@@ -24,9 +30,9 @@
     }
     
     #searchicon  {
-            width:24px;
-            height:24px;
-            margin: 0 0 0 6px;
+            width: 24px;
+            height: 24px;
+            margin: 0 10px 0 6px;
 
     }
     
@@ -34,6 +40,8 @@
             width: 24px;
             height: 24px;
             margin: 0 6px 0 6px;
+         /*   align-self: center; */
+            
     }
     
     #searchbar {
@@ -41,15 +49,24 @@
             width: 100%;
             align-items:stretch;
           /*  padding: 5px 0 5px 0; */
+          
     }
     .query {
-            border-color: transparent;
+          /*  border-color: transparent; */
+          /*border: none transparent; */
+          border: transparent;    
+          outline: none;
+
+
             height: 37px;
             width: 100%;
             align-items:stretch;
             margin: 0 0 1px 0;
             
     }
+/*    .query:active {                       Test to remove input click border
+        border-color: transparent;
+    }*/
         </style>
     </head>
 
@@ -61,11 +78,11 @@
         </div>
     </div> -->
     <div class="container">
-        <div id="searchicon"><span class="material-icons md-24">search</span>
+        <div id="searchicon"><span class="material-icons md-20">search</span>
         </div>
         <div id="searchbar"">  <input class="query" type="text" placeholder="Search Google or type a URL" tabindex="0">
         </div>
-        <div id="voiceicon"><span class="material-icons">mic</span>
+        <div id="voiceicon"><span class="material-icons md-20">mic</span>
         </div>
 
     </div>
