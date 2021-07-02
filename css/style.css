@@ -9,6 +9,29 @@ h1 {
    margin: 164px auto auto;
 }
 
+#navbar {
+    display:flex;
+    background-color: none;
+    max-width: auto;
+    height: 40px;
+
+    justify-content: flex-end;
+    flex-wrap: row nowrap;
+    align-items: center;
+
+}
+.link {
+margin: 9px 12px 0 0;
+font-size: 13px;
+color: grey;
+}
+
+#menuicon {
+
+margin: 15px 15px 0 15px;
+}
+
+
 .GSearch {
     display: flex;
     align-items: center; /*centers content of the search bar VERTICALLY */
