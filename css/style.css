@@ -152,12 +152,40 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
     color: ba
 }
 
-.togglesearchmode {
+.belowsearchbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    margin: 30px;
+}
 
+.radiobuttons {
+    display:flex;
+flex-flow: row nowrap;
+justify-content: center;
+}
+
+.togglesearchmode {
+    display: flex;
+    height: 36px;
+    width: 135px;
+    background-color: #f8f9fa;
+    color: rgb(60, 64, 67);
+    margin: 3px 12px 0 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
 }
 
 .languageselect {
-    
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color:rgb(34, 34, 34); 
+
 }
 
 #footercontainer {
