@@ -19,6 +19,7 @@ a:hover { text-decoration:underline; color:black; }
 
 #allcontainer {
     display:flex;
+    flex-flow: column wrap;
 }
 #navbar {
     display:flex;
