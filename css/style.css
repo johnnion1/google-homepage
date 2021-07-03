@@ -12,8 +12,10 @@ a:hover { text-decoration:underline; color:black; }
 
 
 
-html,body {height: 100%;}   /*Adds border to the page, get rid of later*/
-
+html,body {
+    height: 100%;  
+    margin: 0;
+}
 
 .logo {
    display: flex;
@@ -161,8 +163,8 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
     height: 45px;
 
     width: auto;
-    background-color:rgba(172, 171, 171, 0.76);
-    :flex-end;
+    background-color:rgba(241, 240, 240, 1);
+    font-family: arial, sans-serif;
 }
 .countrybar {
     display:flex;
@@ -179,4 +181,10 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
 
 
 
+}
+hr {
+    margin:0; 
+    border-color: rgba(255, 255, 255, 0.41);
+  /*  border-width: 1px;            need to make it thinner */
+    border-radius: 0 0 1px 2px;
 }
