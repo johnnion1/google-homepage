@@ -35,14 +35,14 @@ html,body {
     background-color: none;
     max-width: auto;
     height: 40px;
-
+    margin: 8px 8px 0 0;
     justify-content: flex-end;
     flex-wrap: row nowrap;
     align-items: center;
 
 }
 .link {
-    margin: 3px 13px 0 0;
+    margin: 3px 12px 0 2px;
     font-size: 13px;
     font-family: arial, sans-serif;
 }
@@ -160,7 +160,7 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
 }
 .footerbar {
     display: flex;
-    height: 45px;
+    height: 46px;
 
     width: auto;
     background-color:rgba(241, 240, 240, 1);
@@ -169,22 +169,42 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
 .countrybar {
     display:flex;
     align-items: center;
-    margin: 0;
+    padding: 0 0 0 30px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
     
 }
 
 .linksectionbar {
     display:flex;
     align-items: center;
-    margin: 0;
     justify-content: space-between;
-
-
+ /*   margin: 0; */
+    flex-flow: row nowrap;
 
 }
+
+.leftside {
+    width:  65%;
+    height:auto;
+justify-content: center;
+}
+
+.rightside {
+    /*Push to the left a few pixels*/
+}
+
 hr {
     margin:0; 
     border-color: rgba(255, 255, 255, 0.41);
   /*  border-width: 1px;            need to make it thinner */
     border-radius: 0 0 1px 2px;
+}
+
+.footerlink {
+    margin: 0px 13px 0 18px;    
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+    font-family: arial, sans-serif;
+
 }
