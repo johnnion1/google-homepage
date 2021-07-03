@@ -137,5 +137,32 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
     margin: 2px 0 1px 0;
     font-size: 16px;
     color: ba
+}
+
+#footer {
+    display: flex;
+    height: 90px;
+    width: auto;
+
+    flex-wrap: column wrap;
+    background-color:rgba(172, 171, 171, 0.76);
+}
+.footerbar {
+    display: flex;
+    height: 40px;
+    width: auto;
+    
+    flex-wrap: column wrap;
+}
+.countrybar {
+    display:flex;
+    align-items: center;
+    margin: 0 0 0 15px;
+    
+}
+
+.linksectionbar {
+    display:flex;
 
 
+}
