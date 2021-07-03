@@ -4,11 +4,16 @@
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 
+a { text-decoration: none;}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration:underline; color:black; }
+/* a:hover, a:active { text-decoration: underline; color:black }   Not needed apparently*/
+
 .logo {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   margin: 164px auto auto;
+   margin: 116px auto auto;
 }
 
 #navbar {
@@ -107,5 +112,6 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
     align-items:stretch;
     margin: 2px 0 1px 0;
     font-size: 16px;
+    color: ba
 
 
