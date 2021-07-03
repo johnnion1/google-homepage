@@ -17,6 +17,9 @@ a:hover { text-decoration:underline; color:black; }
    margin: 116px auto auto;
 }
 
+#allcontainer {
+    display:flex;
+}
 #navbar {
     display:flex;
     background-color: none;
@@ -139,30 +142,36 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
     color: ba
 }
 
-#footer {
+#footercontainer {
     display: flex;
     height: 90px;
     width: auto;
-
-    flex-wrap: column wrap;
     background-color:rgba(172, 171, 171, 0.76);
+    align-content
+    
+
 }
 .footerbar {
     display: flex;
-    height: 40px;
-    width: auto;
+    height: 45px;
+    width: auto; 
     
-    flex-wrap: column wrap;
+    
 }
 .countrybar {
     display:flex;
     align-items: center;
     margin: 0 0 0 15px;
+    justify-content: flex-start;
     
 }
 
 .linksectionbar {
     display:flex;
+    align-items: center;
+    margin: 0 0 0 15px;
+    justify-content: space-between;
+
 
 
 }
