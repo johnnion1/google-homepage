@@ -1,7 +1,9 @@
-h1 {
-    height: 100px; 
-    margin: 200px auto;
-}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-20 { font-size: 20px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
 .logo {
    display: flex;
    flex-direction: row;
@@ -23,7 +25,6 @@ h1 {
 .link {
 margin: 9px 12px 0 0;
 font-size: 13px;
-color: grey;
 }
 
 #menuicon {
@@ -32,51 +33,79 @@ margin: 15px 15px 0 15px;
 }
 
 
-.GSearch {
-    display: flex;
-    align-items: center; /*centers content of the search bar VERTICALLY */
-    margin: 36px auto;
-    text-align: center;
-    justify-content: center;
 
+.container {
+display: flex;
+max-width: 559px;
+height: 42px;
+justify-content:center;
+align-items: center;
+flex-flow: row nowrap;
 
-   /* box-shadow: 1px 1px 2px 0px rgba(172, 171, 171, 0.76); */
-   box-shadow: 3px 3px 13px -9px rgba(172, 171, 171, 0.76);
-    height: 42px;
-    max-width: 559px;
+box-shadow: 3px 3px 13px -9px rgba(172, 171, 171, 0.76);
+border-style: solid;
+border-color:rgba(146, 146, 146, 0.164);
+border-radius: 40px;
+opacity: 0.9;
 
-    border-style: solid;
-    border-color:rgba(146, 146, 146, 0.164);
-    border-radius: 40px;
-    opacity: 0.9;
-
+margin: 36px auto; 
 }
-.searchfield {
-    flex-direction: row;
-    border: none;
-    font-family: Roboto, Cantarell, Arial, sans-serif;
-  
-   margin: auto 5px;
-   font-size: 16px;
-   text-align: justify;
- justify-content:stretch;
-  width: 470px;
-   /* align-items: stretch?? let gap between icons be filled by form
-    justify-content: stretch; */
+
+#searchicon  {
+    width: 24px;
+    height: 24px;
+    margin: 4px 10px 0 15px;
+    color: rgb(95, 99, 104);
 
 }
 
-#searchicon {
-    flex-direction: row;
-
-    margin: 2px 5px 0px 10px;
-}
-
-#voiceicon {
-    flex-direction: row;
-    justify-content: flex-end;
+#voiceicon {              /*change this to a button w title="search by voice"in HTML*/
+    width: 24px;       /* change color with a gradient ? */
+    height: 24px;
+    margin: 4px 10px 0 6px;
+ /*   align-self: center;*/
+/*  background-image: linear-gradient(-45deg, green, red, yellow, blue);*/
     
-    margin: 2px 5px 0px 10px;
-
-
 }
+
+
+/* !COPIED CODE BELOW THIS LINE */
+.fa-gradient {
+background: linear-gradient(-80deg, #4285F4, #34A853, #FBBC05, #EA4335);
+-webkit-background-clip: text;
+color: transparent;
+}
+/*
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip
+-->>> OUTDATED / UNSUPPORTED 
+(-> changed '-webkit-text-fill-color:' to just 'color:', because it's not 
+standardized and color: does the same thing, just has lower priority)
+(-> )
+
+Look at "Knockout text" to implement without -webkit 
+Look at background-clip: text (with css fallback)
+Loot at https://developer.mozilla.org/de/docs/Web/CSS/background-clip
+https://www.google.com/search?q=background-clip%3A+text+alternative&oq=background-clip%3A+text+alternative&aqs=chrome..69i57j69i58.8963j0j7&sourceid=chrome&ie=UTF-8
+!COPIED CODE ABOVE THIS LINE */
+
+#searchbar {
+    height: auto;
+    width: 100%;
+    align-items:stretch;
+  /*  padding: 5px 0 5px 0; */
+  
+}
+.query {
+  /*  border-color: transparent; */
+  /*border: none transparent; */
+  border: transparent;    
+  outline: none;
+
+
+    height: 37px;
+    width: 100%;
+    align-items:stretch;
+    margin: 2px 0 1px 0;
+    font-size: 16px;
+
+
