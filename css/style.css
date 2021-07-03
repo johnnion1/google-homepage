@@ -147,8 +147,7 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
     height: 90px;
     width: auto;
     background-color:rgba(172, 171, 171, 0.76);
-    align-content
-    
+    flex-flow: column nowrap;
 
 }
 .footerbar {
