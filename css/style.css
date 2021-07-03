@@ -10,12 +10,16 @@ a:visited { text-decoration: none; color:black; }
 a:hover { text-decoration:underline; color:black; }
 /* a:hover, a:active { text-decoration: underline; color:black }   Not needed apparently*/
 
-html,body {height: 100%;}
+
+
+html,body {height: 100%;}   /*Adds border to the page, get rid of later*/
+
+
 .logo {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   margin: 116px auto auto;
+   margin: 116px auto 0 auto;
 }
 
 #allcontainer {
@@ -127,15 +131,15 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
 #searchbar {
     height: auto;
     width: 100%;
-    align-items:stretch;
+    align-items:stretch;  /**/
   /*  padding: 5px 0 5px 0; */
   
 }
 .query {
   /*  border-color: transparent; */
   /*border: none transparent; */
-  border: transparent;    
-  outline: none;
+    border: transparent;    
+    outline: none;
 
 
     height: 37px;
@@ -149,6 +153,7 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
 #footercontainer {
     display: flex;
     flex-flow: column wrap;
+    margin: auto 0 0 0;
     
 }
 .footerbar {
