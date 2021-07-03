@@ -1,5 +1,6 @@
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-20 { font-size: 20px; }
+.material-icons.md-22 { font-size: 22px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
@@ -28,46 +29,46 @@ a:hover { text-decoration:underline; color:black; }
 
 }
 .link {
-margin: 9px 12px 0 0;
-font-size: 13px;
+    margin: 9px 12px 0 0;
+    font-size: 13px;
 }
 
 #menuicon {
 
-margin: 15px 15px 0 15px;
+    margin: 15px 15px 0 15px;
 }
 
 
 
 .container {
-display: flex;
-max-width: 559px;
-height: 42px;
-justify-content:center;
-align-items: center;
-flex-flow: row nowrap;
+    display: flex;
+    max-width: 559px;
+    height: 42px;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row nowrap;
 
-box-shadow: 3px 3px 13px -9px rgba(172, 171, 171, 0.76);
-border-style: solid;
-border-color:rgba(146, 146, 146, 0.164);
-border-radius: 40px;
-opacity: 0.9;
+    box-shadow: 3px 3px 13px -9px rgba(172, 171, 171, 0.76);
+    border-style: solid;
+    border-color:rgba(146, 146, 146, 0.164);
+    border-radius: 40px;
+    opacity: 0.9;
 
-margin: 36px auto; 
+    margin: 36px auto; 
 }
 
 #searchicon  {
     width: 24px;
     height: 24px;
-    margin: 4px 10px 0 15px;
+    margin: 4px 10px 0 17px;
     color: rgb(95, 99, 104);
 
 }
 
-#voiceicon {              /*change this to a button w title="search by voice"in HTML*/
+#voiceicon {              /*change this to a link w title="search by voice"in HTML*/
     width: 24px;       /* change color with a gradient ? */
     height: 24px;
-    margin: 4px 10px 0 6px;
+    margin: 4px 17px 0 6px;
  /*   align-self: center;*/
 /*  background-image: linear-gradient(-45deg, green, red, yellow, blue);*/
     
