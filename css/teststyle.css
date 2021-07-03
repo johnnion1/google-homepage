@@ -29,11 +29,11 @@ h1 {
 .searchfield {
     border: none;
     font-family: Roboto, Cantarell, Arial, sans-serif;
-  
+   height: 42px;
+   max-width: 500px;
    margin: auto 5px;
    font-size: 16px;
    text-align: justify;
-  width: 470px;
    /* align-items: stretch?? let gap between icons be filled by form
     justify-content: stretch; */
 
