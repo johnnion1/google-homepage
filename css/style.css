@@ -29,23 +29,36 @@ a:hover { text-decoration:underline; color:black; }
 
 }
 .link {
-    margin: 7px 11px 0 0;
+    margin: 3px 13px 0 0;
     font-size: 13px;
     font-family: arial, sans-serif;
 }
 
 #menuicon {
+    margin: 8px 20px 0 15px;
+}
+.appscolor {
 
-    margin: 15px 15px 0 15px;
+    color: #464545b2;
 }
 
-#signin {
+.signin {
+    display: flex;
     height: 36px;
-    width: 113px;
+    width: 96px;
     background-color: rgb(26, 115, 232);
 
     margin: 3px 10px 0 0;
     border-radius: 4px;
+
+    align-items: center;
+    justify-content: center;
+    font-family:"Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size:15px;
+}   
+#signinbutton {
+    color: white;
+
 }
 
 
