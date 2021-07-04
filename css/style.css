@@ -174,7 +174,10 @@ justify-content: center;
     border-width: 1px;
 }
 a.searchmode {text-decoration:none;}
-a.searchmode:hover {text-decoration:none;}
+a.searchmode:hover {
+    text-decoration:none;
+    margin: -2px;
+}
 
 .togglesearchmode {
     display: flex;
