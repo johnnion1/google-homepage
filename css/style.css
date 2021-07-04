@@ -223,11 +223,15 @@ justify-content: center;
 .leftside {
     width:  65%;
     height:auto;
-justify-content: center;
+justify-content: flex-start;
+margin: 0 auto 0 17px;
 }
 
 .rightside {
-    /*Push to the left a few pixels*/
+    width: 35%;
+    /*when browser width decreases items from linksectionbar move 'towards' justify-content:center;*/
+    justify-content: flex-end;
+    margin: 0 21px 0 auto;
 }
 
 hr {
