@@ -167,9 +167,14 @@ justify-content: center;
 }
 
 .togglesearchmode:hover {
+    height: 35px;
+    width: 134px;
     border: solid;
-    border-color: rgba(176, 196, 222, 0.51);
+    border-color: rgba(176, 196, 222, 0.7);
+    border-width: 1px;
 }
+a.searchmode {text-decoration:none;}
+a.searchmode:hover {text-decoration:none;}
 
 .togglesearchmode {
     display: flex;
@@ -184,6 +189,7 @@ justify-content: center;
     font-family: arial,sans-serif;
     font-size: 14px;
     border-radius: 5px;
+    box-shadow:rgba(172, 171, 171, 0.76);
 }
 
 .languageselect {
