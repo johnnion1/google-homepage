@@ -149,7 +149,7 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
     align-items:stretch;
     margin: 2px 0 1px 0;
     font-size: 16px;
-    color: ba
+    color: ba                   /*!*/
 }
 
 .belowsearchbar {
@@ -161,9 +161,14 @@ https://www.google.com/search?q=background-clip%3A+text+alternative&oq=backgroun
 }
 
 .radiobuttons {
-    display:flex;
+    display: flex;
 flex-flow: row nowrap;
 justify-content: center;
+}
+
+.togglesearchmode:hover {
+    border: solid;
+    border-color: rgba(176, 196, 222, 0.51);
 }
 
 .togglesearchmode {
@@ -219,6 +224,15 @@ justify-content: center;
     flex-flow: row nowrap;
 
 }
+.languagelink {
+    margin: 3px 12px 0 2px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+a.languagelink {color: #1a0dab;}
+a.languagelink:visited { text-decoration: none; color:purple; }
+a.languagelink:hover { text-decoration:underline; }
+
 
 .leftside {
     width:  65%;
